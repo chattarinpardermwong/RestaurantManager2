@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AB5E28B521AC3B5D007A379D /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E28B421AC3B5D007A379D /* MenuTableViewController.swift */; };
+		AB5E28FB21AF2D55007A379D /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E28FA21AF2D55007A379D /* HomeTableView.swift */; };
+		AB5E290121AF2EAB007A379D /* MenuCategoriesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E290021AF2EAB007A379D /* MenuCategoriesCollectionView.swift */; };
+		AB5E290321AF2EE9007A379D /* FeaturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E290221AF2EE9007A379D /* FeaturesTableViewCell.swift */; };
+		AB5E290521AF2F37007A379D /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E290421AF2F37007A379D /* CategoriesTableViewCell.swift */; };
+		AB5E290721AF2F89007A379D /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E290621AF2F89007A379D /* MenuCollectionViewCell.swift */; };
 		ABE5821521AC298500012135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE5821421AC298500012135 /* AppDelegate.swift */; };
 		ABE5821721AC298500012135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE5821621AC298500012135 /* ViewController.swift */; };
 		ABE5821A21AC298500012135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE5821821AC298500012135 /* Main.storyboard */; };
@@ -36,6 +41,11 @@
 
 /* Begin PBXFileReference section */
 		AB5E28B421AC3B5D007A379D /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AB5E28FA21AF2D55007A379D /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		AB5E290021AF2EAB007A379D /* MenuCategoriesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategoriesCollectionView.swift; sourceTree = "<group>"; };
+		AB5E290221AF2EE9007A379D /* FeaturesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesTableViewCell.swift; sourceTree = "<group>"; };
+		AB5E290421AF2F37007A379D /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		AB5E290621AF2F89007A379D /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		ABE5821121AC298500012135 /* RestaurantManager2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantManager2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE5821421AC298500012135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE5821621AC298500012135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				ABE5821D21AC298700012135 /* LaunchScreen.storyboard */,
 				ABE5822021AC298700012135 /* Info.plist */,
 				AB5E28B421AC3B5D007A379D /* MenuTableViewController.swift */,
+				AB5E28FA21AF2D55007A379D /* HomeTableView.swift */,
+				AB5E290021AF2EAB007A379D /* MenuCategoriesCollectionView.swift */,
+				AB5E290221AF2EE9007A379D /* FeaturesTableViewCell.swift */,
+				AB5E290421AF2F37007A379D /* CategoriesTableViewCell.swift */,
+				AB5E290621AF2F89007A379D /* MenuCollectionViewCell.swift */,
 			);
 			path = RestaurantManager2;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5E290121AF2EAB007A379D /* MenuCategoriesCollectionView.swift in Sources */,
 				ABE5821721AC298500012135 /* ViewController.swift in Sources */,
 				ABE5821521AC298500012135 /* AppDelegate.swift in Sources */,
+				AB5E290721AF2F89007A379D /* MenuCollectionViewCell.swift in Sources */,
+				AB5E28FB21AF2D55007A379D /* HomeTableView.swift in Sources */,
+				AB5E290321AF2EE9007A379D /* FeaturesTableViewCell.swift in Sources */,
+				AB5E290521AF2F37007A379D /* CategoriesTableViewCell.swift in Sources */,
 				AB5E28B521AC3B5D007A379D /* MenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89ST658N5L;
 				INFOPLIST_FILE = RestaurantManager2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89ST658N5L;
 				INFOPLIST_FILE = RestaurantManager2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -38,6 +38,7 @@ class MenuTableViewController: UITableViewController {
         super.viewDidLoad()
         self.tableView.isEditing = true
     }
+    
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return .none
     }
